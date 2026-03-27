@@ -4,12 +4,10 @@ const width = cnv.width = 600;
 const height = cnv.height = 600;
 const img = ctx.createImageData(width, height);
 const imgData = img.data;
-
 const waveHeight = [];
 const waveVelocity = [];
 const pixelMass = [];
 const accumulatedLight = [];
-
 const ACCUMULATED_EXPOSURE = 0.0005;
 const GLASS_COLORS = [50, 60, 70];
 const COLOR_SHIFT = [0.02, 0.0, -0.04];
